@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<center>
+    <div class="main">
+    <h1>My Calculator</h1>
+
+<input class="inp" type="text" placeholder="0" id="val" disabled>
+<br>
+<div>
+<button onclick="btnval(1)">1</button>
+<button onclick="btnval(2)">2</button>
+<button onclick="btnval(3)">3</button>
+<button onclick="btnval('/')">/</button>
+<br>
+</div>
+<div>
+<button onclick="btnval(4)">4</button>
+<button onclick="btnval(5)">5</button>
+<button onclick="btnval(6)">6</button>
+<button onclick="btnval('-')">-</button>
+<br>
+</div>
+<div>
+<button onclick="btnval(7)">7</button>
+<button onclick="btnval(8)">8</button>
+<button onclick="btnval(9)">9</button>
+<button onclick="btnval('*')">x</button>
+<br>
+</div>
+<div>
+    <button onclick="del()"> C</button>
+<button onclick="btnval(0)">0</button>
+<button onclick="clearVal()" >AC</button>
+
+
+<button class="plus" onclick="btnval('+')">+</button>
+
+
+<br>
+</div>
+<div>
+
+<button class="equal" onclick="setResult()">=</button>
+
+</div>
+<div>
+    <h1>All Rights Reserved By Hamza Raza</h1>
+</div>
+
+
+    <script src="app.js"></script>
+
+</div>
+</center>
+</body>
+</html>

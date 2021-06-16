@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(98, 78, 114);
+ align-content: center;
+ padding: 10px;
+}
+
+
+button {
+    background-color: lightblue;
+    width: 10%;
+    border-radius: 20%;
+    margin-bottom: 5px;
+    padding: 20px;
+    font-size: 25px;
+    background-image: linear-gradient(rgb(252, 251, 249),rgb(179, 179, 170),rgb(204, 149, 78));
+
+}
+button:hover{
+    background-image: linear-gradient(rgb(150, 143, 129),rgb(189, 189, 184),rgb(68, 63, 64));
+}
+button:active
+{background-image: linear-gradient(rgb(44, 40, 32),rgb(192, 192, 108),rgb(88, 74, 76));
+}
+.equal{
+    width: 42%;
+    margin-right: 1px;
+}
+
+.inp{
+    height: 55px;
+    width: 40%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.main{
+    padding: 10px;
+    
+    margin-right: 20%;
+    margin-left: 20%;
+    border: solid black;
+    background-color: rgb(47, 40, 53);
+    color: cyan;
+}
+
+.equal
+{
+    border-radius: 0%   ;
+}
